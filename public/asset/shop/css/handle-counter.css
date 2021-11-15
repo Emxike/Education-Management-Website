@@ -1,0 +1,31 @@
+.handle-counter {
+    overflow: hidden;
+}
+
+.handle-counter .counter-minus, .handle-counter .counter-plus, .handle-counter input {
+    float: left;
+    text-align: center;
+}
+
+.handle-counter .counter-minus, .handle-counter .counter-plus {
+    text-align: center;
+}
+
+.handle-counter input {
+    margin: 0 5px;
+    width: 40%;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+}
+
+.btn {
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+.btn:disabled, .btn:disabled:hover {
+    background-color: darkgrey;
+    cursor: not-allowed;
+}
